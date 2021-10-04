@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Righteous&family=Viga&display=swap');
+/*font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Viga', sans-serif;*/
+
 .App {
   text-align: center;
 }
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +31,53 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Home_part2 {
+  background-color: #fe8830;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Home_btn_1{
+  color: #242424 !important;
+  background-color: #ffffff !important;
+}
+.Home_p_1{
+  width: 60%;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.Home_ln_1{
+  color: #fe8830;
+}
+.Home_ln_2{
+  color: #3b3b3b;
+}
+.clr_white{
+  color: #ffffff;
+}
+.clr_1{
+  color: #898887;
+}
+.clr_2{
+  color: #565656;
+}
+.bk_clr{
+  background: #cfcfcf !important;
+}
+.bk_clr_1{
+  background: #ebebeb !important;
+}
+.bk_clr_1:hover{
+  background: #dfdede !important;
+}
+.bdr_btm_1{
+  border-bottom: 1px solid #dbdbdb !important;
 }
 
 @keyframes App-logo-spin {
